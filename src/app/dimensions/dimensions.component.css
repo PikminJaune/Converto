@@ -1,0 +1,14 @@
+select {
+    margin-right: 100px;
+}
+
+p {
+    font-size: 20px;
+    color: #FCEDDA;
+    font-weight: bold;
+    margin: 20px;
+}
+
+h1 {
+    color: #FCEDDA;
+}

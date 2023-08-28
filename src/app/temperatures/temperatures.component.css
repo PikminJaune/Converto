@@ -1,0 +1,14 @@
+h1 {
+    color: #2C5F2DFF;
+}
+
+select {
+    margin-right: 100px;
+}
+
+p {
+    font-size: 20px;
+    color: #2C5F2DFF;
+    font-weight: bold;
+    margin: 20px;
+}

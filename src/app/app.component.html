@@ -1,0 +1,23 @@
+<!-- Fichier : app.component.html  
+ Dév : Olivier Mathieu-Grégoire 
+ Date : 4 novembre 2022 -->
+
+<div class="container">
+
+
+  <article style="background-color:#234E70;">
+    <h1 style="color:#FBF8BE;">Converto</h1>
+    <h1 style="color:#FBF8BE;">Par Olivier Mathieu-Grégoire</h1>
+  </article>
+
+  <button class="btn" (click)="dimensionsClick()">Dimensions</button>
+  <button class="btn" (click)="poidsClick()">Poids</button>
+  <button class="btn" (click)="temperatureClick()">Températures</button>
+  <button class="btn" (click)="monnaieClick()">Monnaie</button>
+
+  <app-dimensions *ngIf="dimensionsVisible"></app-dimensions>
+  <app-poids *ngIf="poidsVisible"></app-poids>
+  <app-temperatures *ngIf="temperatureVisible"></app-temperatures>
+  <app-monnaie *ngIf="monnaieVisible"></app-monnaie>
+
+</div>

@@ -1,0 +1,14 @@
+h1 {
+    color: #99F443;
+}
+
+select {
+    margin-right: 100px;
+}
+
+p {
+    font-size: 20px;
+    color: #99F443;
+    font-weight: bold;
+    margin: 20px;
+}

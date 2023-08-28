@@ -1,0 +1,75 @@
+<!-- Fichier : dimensions.component.html  
+ Dév : Olivier Mathieu-Grégoire 
+ Date : 4 novembre 2022 -->
+
+<div style="background-color : #EE4E34;" class="mt-3">
+    <h1><img src="./assets/images/3dcube.png" height="80" width="80">Dimensions</h1>
+
+    <p>
+        Entrée :
+        <select [(ngModel)]="selectionEntree" (change)="ChangementDeValeurSelect($event)">
+            <option>mm</option>
+            <option>cm</option>
+            <option>m</option>
+            <option>km</option>
+            <option>pouce</option>
+            <option>pied</option>
+            <option>verge</option>
+            <option>mile</option>
+        </select>
+
+        Sortie :
+        <select [(ngModel)]="selectionSortie" (change)="ChangementDeValeurSelect($event)">
+            <option>mm</option>
+            <option>cm</option>
+            <option>m</option>
+            <option>km</option>
+            <option>pouce</option>
+            <option>pied</option>
+            <option>verge</option>
+            <option>mile</option>
+        </select>
+
+        Dimension :
+        <select [(ngModel)]="nombreDimension" (change)="ChangementDeDimension($event)">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+
+        Précision :
+        <select [(ngModel)]="nombrePrecision" (change)="ChangementDeValeurSelect($event)">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+
+    </p>
+    <hr>
+
+    <p>
+        Longeur :<input type="number" value="20" [(ngModel)]="inputReponseLongeur"
+            (ngModelChange)="ChangementDeValeurSelect($event)">{{selectionEntree}} =
+        <span style="font-weight:bold;">{{ReponseDuCalculLongeur}}</span> {{selectionSortie}}
+    </p>
+    <p *ngIf="VoirLargeur">
+        Largeur :<input type="number" value="20" [(ngModel)]="inputReponseLargeur"
+            (ngModelChange)="ChangementDeValeurSelect($event)">{{selectionEntree}} =
+        <span style="font-weight:bold;">{{ReponseDuCalculLargeur}}</span> {{selectionSortie}}
+    </p>
+    <p *ngIf="VoirProfondeur">
+        Profondeur :<input type="number" value="20" [(ngModel)]="inputReponseProfondeur"
+            (ngModelChange)="ChangementDeValeurSelect($event)">{{selectionEntree}} =
+        <span style="font-weight:bold;">{{ReponseDuCalculProfondeur}}</span> {{selectionSortie}}
+    </p>
+
+    <p *ngIf="VoirCalculLargeur">Surface : {{nombreSurfaceEntree}} {{selectionEntree}} carré = {{nombreSurfaceSortie}}
+        {{selectionSortie}} carré</p>
+    <p *ngIf="VoirCalculProfondeur">Volume : {{nombreVolumeEntree}} {{selectionEntree}} Cube = {{nombreVolumeSortie}}
+        {{selectionSortie}} cube</p>
+
+
+</div>
