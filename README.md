@@ -17,10 +17,10 @@ Ici on peu utilisé jusqu'à 3 dimensions pour convetir les données.Dans l'exmp
 
 # <h1 align="center">Monnaie</h1>
 
-Ici on met une année en entré et elle doit etre plus vieille que l'année de sortie.On rentre un montant dans la barre pour voir combien il vaut dans les années suivant.L'argent est en CAD.
+Ici on met une année en entrée et elle doit être plus vieille que l'année de sortie.On rentre un montant dans la barre pour voir combien il vaut dans les années suivant.L'argent est en CAD.
 
 ![convertoMonnaie](https://github.com/PikminJaune/Converto/assets/71794298/2e54199a-3036-4f78-bff3-ee4be4b2f198)
 
-Donc 100$ en 1971 vaux 676 $ en 2020.
+Donc un billet de 100$ en 1971 vaut 676 $ en 2020.
 
 <a href="https://1847622.techinfo-cstj.ca/3D4/converto/" target="_blank">Tester Converto</a>
