@@ -1,5 +1,5 @@
 # Converto 
-Projet fait au Cégep de Saint-Jérôme dans le cours Technologie Web avec Angular. En résumé , c'est un application web qui convertie des données. Par exemple de passer de gramme à once avec une précision de 2 à 5 nombres après la virgule avec un calcul , si nécessaire. Alors voici les différentes captures d'écran.
+Projet fait au Cégep de Saint-Jérôme dans le cours Technologie Web avec Angular. En résumé , c'est un application web qui convertie des données. Par exemple de passer de gramme à once avec une précision de 2 à 5 nombres après la virgule avec un calcul , si nécessaire. Alors voici les différentes captures d'écran.<a href="https://1847622.techinfo-cstj.ca/3D4/converto/" target="_blank">Tester Converto</a>
 
 # <h1 align="center">Dimensions</h1>
 
@@ -23,4 +23,4 @@ Ici on met une année en entrée et elle doit être plus vieille que l'année de
 
 Donc un billet de 100$ en 1971 vaut 676 $ en 2020.
 
-<a href="https://1847622.techinfo-cstj.ca/3D4/converto/" target="_blank">Tester Converto</a>
+
